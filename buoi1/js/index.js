@@ -205,14 +205,14 @@ console.log("number6:", number6);
     Bước3 : Output: Hiển Thị kết quả số tiền vnd được quy đổi
 */
 
-// let giaUsd = prompt("Vui Lòng Nhập Giá USD Hiện Tại");
-// let soLuong = prompt("Nhập Số USD Cần Đổi");
+let giaUsd = prompt("Vui Lòng Nhập Giá USD Hiện Tại");
+let soLuong = prompt("Nhập Số USD Cần Đổi");
 
-// let tongTien = +giaUsd * +soLuong;
+let tongTien = +giaUsd * +soLuong;
 
-// // console.log("Tổng Tiền: ", tongTien, "Đồng");
-// let dong = tongTien + " Đồng";
-// alert(dong);
+// console.log("Tổng Tiền: ", tongTien, "Đồng");
+let dong = tongTien + " Đồng";
+alert(dong);
 
 
 // Bài Tập Tính Chu Vi Vs Diện Tích Hình Chữ Nhật
